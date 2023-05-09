@@ -66,7 +66,11 @@
 
 })();
 
-
+//header-color
+window.addEventListener("scroll",function(){
+  var header = this.document.querySelector("header");
+  header.classList.toggle("sticky", this.window.scrollY > 0);
+})
 
 
 //image slider 
