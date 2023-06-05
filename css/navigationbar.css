@@ -12,7 +12,6 @@
 body {
 	line-height: 1.5;
 	background-color: var(--body-color);
-	font-family: 'Josefin Sans', sans-serif;
 	overflow-x: hidden;
 }
 
