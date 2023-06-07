@@ -68,17 +68,23 @@ function openWOMEN() {
   TrendingWomenPage.style.display = "flex";
   TrendingMenPage.style.display = "none";
   TrendingKidPage.style.display = "none";
-  TrendingBtn1.style.color = "#000";
+  TrendingBtn1.style.color = "#193f52";
   TrendingBtn2.style.color = "#9c9c9c";
   TrendingBtn3.style.color = "#9c9c9c";
+  TrendingBtn3.style.borderColor = "#fff";
+  TrendingBtn2.style.borderColor = "#fff";
+  TrendingBtn1.style.borderColor = "#193f52";
 }
 function openMEN() {
   TrendingWomenPage.style.display = "none";
   TrendingMenPage.style.display = "flex";
   TrendingKidPage.style.display = "none";
   TrendingBtn1.style.color = "#9c9c9c";
-  TrendingBtn2.style.color = " #000";
+  TrendingBtn2.style.color = " #193f52";
   TrendingBtn3.style.color = "#9c9c9c";
+  TrendingBtn1.style.borderColor = "#fff";
+  TrendingBtn3.style.borderColor = "#fff";
+  TrendingBtn2.style.borderColor = "#193f52";
 }
 function openKID() {
   TrendingWomenPage.style.display = "none";
@@ -86,5 +92,8 @@ function openKID() {
   TrendingKidPage.style.display = "flex";
   TrendingBtn1.style.color = "#9c9c9c";
   TrendingBtn2.style.color = "#9c9c9c";
-  TrendingBtn3.style.color = "#000";
+  TrendingBtn3.style.color = "#193f52";
+  TrendingBtn1.style.borderColor = "#fff";
+  TrendingBtn2.style.borderColor = "#fff";
+  TrendingBtn3.style.borderColor = "#193f52";
 }
