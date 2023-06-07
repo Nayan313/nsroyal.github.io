@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
 
 
 body {
@@ -87,13 +87,13 @@ a {
 }
 
 .img-slider .slide .info h2 {
-	font-weight: 900;
+	font-weight: 500;
 	font-size: 50px;
 	color: #193f52;
 	line-height: 1.04615;
 	text-transform: uppercase;
 	width: 100%;
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Bodoni Moda', serif;
 }
 
 /* .img-slider .slide .info h2::before {
